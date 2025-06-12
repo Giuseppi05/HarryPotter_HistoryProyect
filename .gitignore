@@ -1,0 +1,42 @@
+/.bsp/
+
+# === Build artifacts ===
+/target/
+/project/target/
+/project/project/
+
+# === Bloop and Metals ===
+.bloop/
+.metals/
+.idea/
+.vscode/
+
+# === Metals semanticdb files ===
+/metals.sbt
+/.ammonite/
+/.worksheet
+
+# === VS Code extensions ===
+.history/
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Log files ===
+*.log
+
+# === Classpath file ===
+/lib_managed/
+/src_managed/
+/bin/
+
+# === IntelliJ / JetBrains ===
+*.iml
+*.ipr
+*.iws
+/.idea/
+
+# === Backup and temporary files ===
+*.swp
+*~
