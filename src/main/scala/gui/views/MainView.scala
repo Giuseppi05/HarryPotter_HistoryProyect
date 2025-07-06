@@ -63,11 +63,25 @@ class MainView(title: String, story: Label, image: ImageView, opts: VBox) {
     children = Seq(image)
   }
 
+  val optsScroll = new ScrollPane {
+    content = opts
+    prefWidth = 460
+    prefHeight = 200
+    fitToWidth = true
+    hbarPolicy = ScrollPane.ScrollBarPolicy.Never
+    vbarPolicy = ScrollPane.ScrollBarPolicy.AsNeeded
+    style = """
+      -fx-background-color: transparent;
+      -fx-background: transparent;
+      -fx-background-insets: 0;
+    """
+  }
+
   val root = new VBox {
     spacing = 20
     padding = Insets(25)
     alignment = Pos.Center
-    children = Seq(titleLbl, imgBox, storyBox, opts)
+    children = Seq(titleLbl, imgBox, storyBox, optsScroll)
     style = "-fx-background-color:#1E1E1E"
 
     border = new Border(

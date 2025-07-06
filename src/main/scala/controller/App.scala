@@ -36,7 +36,7 @@ object App extends JFXApp3 {
 
     val optsBox = new VBox {
       spacing = 12
-      padding = Insets(20)
+      padding = Insets(5)
       alignment = Pos.Center
       prefWidth = 450
       minHeight = 100
@@ -47,7 +47,7 @@ object App extends JFXApp3 {
     stage = new PrimaryStage {
       title = "El Misterio de Hogwarts"
       width = 520
-      height = 750
+      height = 800
       resizable = false
       scene = new MainView(
         "El Misterio de Hogwarts",

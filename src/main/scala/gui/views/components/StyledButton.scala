@@ -1,18 +1,51 @@
 package gui.views.components
 
-import scalafx.scene.control.Button
+import scalafx.geometry.{Insets, Pos}
+import scalafx.scene.control.{Button, Label}
+import scalafx.scene.layout.Region
 
 object StyledButton {
   def apply(text: String, bg: String)(action: => Unit): Button = {
-    val baseStyle = s"-fx-font-size:13pt;-fx-text-fill:white;-fx-background-color:$bg;-fx-background-radius:5px;-fx-min-width:380px;-fx-min-height:45px;"
-    val hoverStyle = s"-fx-font-size:13pt;-fx-text-fill:white;-fx-background-color:derive($bg,15%);-fx-background-radius:5px;-fx-min-width:380px;-fx-min-height:45px;-fx-cursor:pointer;"
-    
-    val btn = new Button(text) {
+    val innerLabel = new Label(text) {
+      wrapText = true
+      alignment = Pos.Center
+      maxWidth = 400
+      style = "-fx-text-fill: white; -fx-font-size: 13pt; -fx-text-alignment: center;"
+      padding = Insets(5, 10, 5, 10)
+    }
+
+    val baseStyle =
+      s"""
+         |-fx-background-color: $bg;
+         |-fx-background-radius: 5px;
+         |-fx-pref-width: 440px;
+         |-fx-padding: 5;
+       """.stripMargin
+
+    val hoverStyle =
+      s"""
+         |-fx-background-color: derive($bg, 15%);
+         |-fx-background-radius: 5px;
+         |-fx-pref-width: 440px;
+         |-fx-padding: 5;
+         |-fx-cursor: hand;
+       """.stripMargin
+
+    val btn = new Button {
+      graphic = innerLabel
       onAction = _ => action
+      wrapText = true
+      alignment = Pos.Center
+      maxWidth = 440
+      minHeight = Region.USE_PREF_SIZE
+      prefHeight = Region.USE_COMPUTED_SIZE
+      maxHeight = Double.MaxValue
       style = baseStyle
     }
+
     btn.onMouseEntered = _ => btn.style = hoverStyle
-    btn.onMouseExited  = _ => btn.style = baseStyle
+    btn.onMouseExited = _ => btn.style = baseStyle
+
     btn
   }
 }

@@ -2,75 +2,160 @@
   "nodes": [
     {
       "id": 1,
-      "event": "Juan está perdido en un misterioso bosque encantado...",
-      "imagePath": "/images/node_1.jpg"
+      "event": "Harry Potter vive una vida miserable con los Dursley, hasta que en su cumpleaños N°11, una avalancha de cartas de Hogwarts comienza a llegar, a pesar de los intentos desesperados de los Dursley por ocultarlas. ¿Qué hará Harry con las cartas?",
+      "imagePath": "/images/cartas.jpeg"
     },
     {
       "id": 2,
-      "event": "Juan encuentra un sendero que se bifurca en dos direcciones",
-      "imagePath": "/images/node_2.jpg"
+      "event": "Harry viaja con Hagrid al Callejón Diagon para comprar sus útiles escolares y su varita. Luego llega a la estación de King's Cross para tomar el Expreso de Hogwarts, pero no logra encontrar la plataforma 9 3/4. Hay una familia ruidosa de pelirrojos, Los Weasley, cerca. ¿Qué hará Harry?",
+      "imagePath": "/images/estacion.jpg"
     },
     {
       "id": 3,
-      "event": "Juan encuentra un hada brillante con alas de mariposa",
-      "imagePath": "/images/node_3.jpg"
+      "event": "En el tren, Harry comparte un asiento con Ron Weasley y Hermione Granger. Durante el viaje, los tres forjan una amistad. Una vez en Hogwarts, llega el momento crucial del Sombrero Seleccionador. El Sombrero, al posarse sobre la cabeza de Harry, piensa seriamente en enviarlo a Slytherin, pero Harry tiene un deseo. ¿Qué hará Harry?",
+      "imagePath": "/images/tren.png"
     },
     {
       "id": 4,
-      "event": "El hada sonríe y lo guía hacia lo más profundo del bosque mágico",
-      "imagePath": "/images/node_4.jpg"
+      "event": "Harry, Ron y Hermione, ahora compañeros de Gryffindor, descubren al perro de tres cabezas Fluffy custodiando una trampilla en el tercer piso. Las sospechas del trío sobre el Profesor Snape crecen después de un incidente en el partido de Quidditch. Deciden investigar usando la Capa de Invisibilidad. En la sección prohibida de la biblioteca, encuentran información sobre Nicolas Flamel y la Piedra Filosofal. ¿Qué harán con la información?",
+      "imagePath": "/images/aventuras.png"
     },
     {
       "id": 5,
-      "event": "Juan desaparece en la niebla... nadie lo vuelve a ver jamás",
-      "imagePath": "/images/node_5.jpg"
+      "event": "Durante una detención en el Bosque Prohibido, Harry se encuentra con una figura encapuchada bebiendo sangre de unicornio. Un centauro llamado Firenze le revela que la figura es Lord Voldemort, buscando mantenerse con vida. La existencia de la Piedra Filosofal y su conexión con Voldemort se vuelven evidentes. El trío sabe que debe actuar. ¿Qué harán?",
+      "imagePath": "/images/centauro.png"
     },
     {
       "id": 6,
-      "event": "Juan decide ignorar al hada y encuentra la salida del bosque",
-      "imagePath": "/images/node_6.jpg"
+      "event": "Con la información y la creciente amenaza de Voldemort, el trío decide ir tras la Piedra Filosofal ellos mismos antes de que sea demasiado tarde. Se dirigen al tercer piso, listos para enfrentar los desafíos que la protegen.",
+      "imagePath": "/images/desafios.png"
     },
     {
       "id": 7,
-      "event": "Juan regresa a casa sano y salvo, viviendo feliz para siempre",
-      "imagePath": "/images/node_7.jpg"
+      "event": "Harry, Ron y Hermione superan los desafíos que protegen la Piedra: Fluffy, el Lazo del Diablo, las llaves voladoras, el ajedrez mágico (Ron se sacrifica heroicamente), un troll incapacitado y el acertijo de pociones. Finalmente, Harry se enfrenta solo al Profesor Quirrell, quien revela ser el anfitrión de Lord Voldemort.",
+      "imagePath": "/images/enfrentamiento.png"
     },
     {
       "id": 8,
-      "event": "¡Un oso feroz emerge de entre los arbustos y ataca a Juan!",
-      "imagePath": "/images/node_8.jpg"
+      "event": "Harry despierta en la enfermería, débil pero victorioso. Dumbledore le explica que el amor protector de su madre lo salvó. La Piedra Filosofal ha sido destruida, lo que impide que Voldemort recupere su poder. Al final del año, Gryffindor gana la Copa de las Casas. Harry regresa a la casa de los Dursley para el verano, sabiendo que su vida nunca volverá a ser la misma y que su verdadero hogar lo espera en Hogwarts. Ha demostrado su valentía y ha forjado amistades inquebrantables, listo para los desafíos futuros.",
+      "imagePath": "/images/enfermeria.png"
     },
     {
       "id": 9,
-      "event": "Juan no logra escapar... su aventura termina aquí",
-      "imagePath": "/images/node_9.jpg"
+      "event": "Harry se niega a pedir ayuda y no logra encontrar el Andén 9 3/4. Frustrado y desilusionado, pierde el Expreso de Hogwarts y, con él, la oportunidad de comenzar su primer año. Su aventura mágica no logra despegar.",
+      "imagePath": "/images/negacion.png"
+    },
+    {
+      "id": 10,
+      "event": "El trío decide que es demasiado peligroso investigar más a fondo la Piedra Filosofal por su cuenta. Informan a los profesores sobre sus sospechas, pero al no tener pruebas sólidas, no son tomados en serio. La Piedra Filosofal permanece oculta, y el misterio sin resolver los persigue.",
+      "imagePath": "/images/informe.png"
+    },
+    {
+      "id": 11,
+      "event": "Harry, Ron y Hermione deciden no ir tras la Piedra Filosofal y en su lugar se enfocan en sus estudios. El año escolar transcurre con normalidad, pero la amenaza de Voldemort permanece latente, sin que nadie la detecte. La Piedra Filosofal está a salvo por ahora, pero la ignorancia del peligro real podría tener consecuencias graves en el futuro.",
+      "imagePath": "/images/estudiar.png"
+    },
+    {
+      "id": 12,
+      "event": "Harry no lee ninguna de las cartas de Hogwarts, o los Dursley logran interceptarlas todas. Hagrid nunca llega a buscarlo. Harry nunca descubre que es un mago. Su vida continúa siendo miserable con los Dursley, ajeno al mundo mágico y a su verdadero destino. Vive una vida ordinaria, sin magia, sin amigos verdaderos y sin saber del sacrificio de sus padres. La magia permanece oculta para él para siempre.",
+      "imagePath": "/images/vidam.png"
+    },
+    {
+      "id": 13,
+      "event": "Harry es seleccionado en Slytherin. Draco Malfoy lo acoge, y Harry se encuentra inmerso en un mundo de lealtades y ambiciones diferentes. Sus amistades con Ron y Hermione se resienten. A lo largo del año, Harry escucha rumores sobre un objeto valioso escondido en el colegio y las sospechas de su casa recaen en Dumbledore o, incluso, en los Gryffindor. ¿Cómo reaccionará Harry a esto?",
+      "imagePath": "/images/slytherin.png"
+    },
+    {
+      "id": 14,
+      "event": "Impulsado por la curiosidad y la ambición de Slytherin, Harry decide investigar el misterio de la Piedra Filosofal, pero desde una perspectiva diferente. Se acerca a Snape, buscando ganarse su favor y aprender de él, pensando que podría ser una clave para sus propias ambiciones. También podría usar su estatus en Slytherin para obtener información. ",
+      "imagePath": "/images/snape.png"
+    },
+    {
+      "id": 15,
+      "event": "Harry, influenciado por las ideas de superioridad de sangre pura que prevalecen en Slytherin, comienza a interesarse por la magia oscura. Ve la Piedra Filosofal como un medio para adquirir poder personal o para impresionar a sus compañeros de casa y a figuras como Voldemort. Trabaja en secreto para descubrir cómo usar la Piedra para sus propios fines. ¿Qué hará con el conocimiento que obtenga?",
+      "imagePath": "/images/piedra.png"
+    },
+    {
+      "id": 16,
+      "event": "Harry decide que la Piedra Filosofal es demasiado peligrosa y que sus nuevos lazos en Slytherin son más importantes. Ignora los rumores y se enfoca en sus estudios y en consolidar su posición en la casa. La Piedra Filosofal queda sin ser descubierta por él, y el peligro inminente se cierne sobre Hogwarts sin su intervención.",
+      "imagePath": "/images/peligroso.png"
+    },
+    {
+      "id": 17,
+      "event": "Harry descubre la verdad sobre la Piedra Filosofal y la posesión de Quirrell por Voldemort. Se da cuenta de la magnitud del peligro. A pesar de sus lealtades a Slytherin, un atisbo de su naturaleza heroica emerge. ¿Qué hará Harry con este terrible descubrimiento?",
+      "imagePath": "/images/verdad.jpg"
+    },
+    {
+      "id": 18,
+      "event": "Harry se enfrenta a Quirrell, revelando su conocimiento de la Piedra Filosofal y la presencia de Voldemort. La batalla es brutal, y sin el lazo de amistad de Ron y Hermione ni el amor protector de su madre de la misma manera que en Gryffindor, el resultado es incierto. El destino del mundo mágico pende de un hilo.",
+      "imagePath": "/images/quirell.jpg"
+    },
+    {
+      "id": 19,
+      "event": "La confrontación con Quirrell resulta en la derrota de Harry. Sin el apoyo crucial de sus amigos o la misma protección mágica, Harry sucumbe. Voldemort recupera la Piedra Filosofal y, con ella, su poder completo. El mundo mágico se sume en la oscuridad, con Harry Potter recordado como un héroe fallido. La era de Voldemort comienza de nuevo.",
+      "imagePath": "/images/derrota.jpg"
+    },
+    {
+      "id": 20,
+      "event": "Harry, tras una dura batalla, logra vencer a Quirrell y a Voldemort, pero a un costo personal significativo. La victoria no es celebrada públicamente de la misma manera, ya que su asociación con Slytherin lo mantiene bajo escrutinio. La Piedra Filosofal es destruida. Harry ha demostrado su poder y astucia, ganando respeto entre sus compañeros de casa, pero su camino está marcado por la soledad y la ambición, no por la amistad. Se convierte en una figura formidable en Slytherin, pero su futuro es ambiguo, entre la luz y la oscuridad, listo para construir su propio legado en el mundo mágico.",
+      "imagePath": "/images/final.jpg"
+    },
+    {
+      "id": 21,
+      "event": "Harry decide guardar el secreto de la Piedra Filosofal para sí mismo o para un pequeño grupo de aliados de Slytherin. El misterio se mantiene oculto al resto del colegio y a los profesores. Las sospechas y los juegos de poder se intensifican dentro de la casa. La Piedra Filosofal sigue siendo una amenaza latente, y el destino de Hogwarts permanece incierto y vulnerable.",
+      "imagePath": "/images/secreto.jpg"
     }
   ],
   "edges": [
     {
-      "option": " ",
+      "option": "Abrir y leer las cartas a pesar de los Dursley",
       "initNode": 1,
       "finalNode": 2
     },
     {
-      "option": "Tomar el sendero de la derecha",
+      "option": "Ignorar las cartas o dejar que los Dursley las escondan",
+      "initNode": 1,
+      "finalNode": 12
+    },
+    {
+      "option": "Pedir ayuda a la familia Weasley para encontrar el andén",
       "initNode": 2,
       "finalNode": 3
     },
     {
-      "option": "Hablar amigablemente con el hada",
+      "option": "Intentar encontrar el andén solo",
+      "initNode": 2,
+      "finalNode": 9
+    },
+    {
+      "option": "Pedir al Sombrero que lo mande a Gryffindor",
       "initNode": 3,
       "finalNode": 4
     },
     {
-      "option": " ",
+      "option": "Aceptar ser de Slytherin como desea el Sombrero",
+      "initNode": 3,
+      "finalNode": 13
+    },
+    {
+      "option": "Seguir investigando",
       "initNode": 4,
       "finalNode": 5
     },
     {
-      "option": "Ignorar al hada y seguir caminando",
-      "initNode": 3,
+      "option": "Informar a los profesores sin investigar más",
+      "initNode": 4,
+      "finalNode": 10
+    },
+    {
+      "option": "Decidir ir tras la Piedra Filosofal inmediatamente",
+      "initNode": 5,
       "finalNode": 6
+    },
+    {
+      "option": "Decidir ignorar las sospechas y enfocarse en los estudios",
+      "initNode": 5,
+      "finalNode": 11
     },
     {
       "option": " ",
@@ -78,14 +163,54 @@
       "finalNode": 7
     },
     {
-      "option": "Tomar el sendero de la izquierda",
-      "initNode": 2,
+      "option": " ",
+      "initNode": 7,
       "finalNode": 8
     },
     {
-      "option": " ",
-      "initNode": 8,
-      "finalNode": 9
+      "option": "Investigar el misterio de la Piedra Filosofal desde Slytherin",
+      "initNode": 13,
+      "finalNode": 14
+    },
+    {
+      "option": "Interesarse en la magia oscura y la Piedra para poder personal",
+      "initNode": 13,
+      "finalNode": 15
+    },
+    {
+      "option": "Ignorar los rumores y enfocarse en las lealtades de Slytherin",
+      "initNode": 13,
+      "finalNode": 16
+    },
+    {
+      "option": "Buscar información para proteger la Piedra",
+      "initNode": 14,
+      "finalNode": 17
+    },
+    {
+      "option": "Buscar información para usar la Piedra",
+      "initNode": 15,
+      "finalNode": 17
+    },
+    {
+      "option": "Enfrentarse a Quirrell",
+      "initNode": 17,
+      "finalNode": 18
+    },
+    {
+      "option": "Guardar el secreto",
+      "initNode": 17,
+      "finalNode": 21
+    },
+    {
+      "option": "Harry es derrotado",
+      "initNode": 18,
+      "finalNode": 19
+    },
+    {
+      "option": "Harry logra la victoria",
+      "initNode": 18,
+      "finalNode": 20
     }
   ]
 }
