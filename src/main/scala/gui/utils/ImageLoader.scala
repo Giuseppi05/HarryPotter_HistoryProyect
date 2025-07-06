@@ -7,6 +7,7 @@ import scalafx.Includes._
 import java.io.File
 
 object ImageLoader {
+  
   def load(imageView: ImageView, path: String): Unit = {
     try {
       val resource = getClass.getResourceAsStream(path)
@@ -20,6 +21,7 @@ object ImageLoader {
       case _: Exception => createPlaceholder(imageView)
     }
   }
+
   def fadeTo(imageView: ImageView, path: String): Unit = {
     val fadeOut = new FadeTransition(Duration(200), imageView) {
       fromValue = 1.0; toValue = 0.0
@@ -33,6 +35,6 @@ object ImageLoader {
     fadeOut.play()
   }
   private def createPlaceholder(iv: ImageView): Unit = {
-    // placeholder logic
+
   }
 }

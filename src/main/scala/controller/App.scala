@@ -3,56 +3,60 @@ package gui.controller
 import scalafx.application.JFXApp3
 import scalafx.application.JFXApp3.PrimaryStage
 import scalafx.scene.control.Label
-import scalafx.scene.layout.VBox
+import scalafx.scene.layout._
 import scalafx.scene.image.ImageView
-import scalafx.geometry.Insets
+import scalafx.geometry.{Insets, Pos}
 import gui.views.MainView
 import controller.StoryController
+import gui.utils.FontLoader
+import scalafx.scene.layout.BorderStrokeStyle._
+import scalafx.scene.paint.Color
 
 object App extends JFXApp3 {
-  
+
   override def start(): Unit = {
-    // Crear los componentes con estilos aplicados
-    val storyLbl = new Label { 
+
+    val storyLbl = new Label {
       wrapText = true
+      font = FontLoader.getFont(18)
       style = """
-        -fx-font-family: 'Segoe UI', sans-serif;
-        -fx-font-size: 15pt;
-        -fx-text-fill: #CCCCCC;
-        -fx-padding: 20px;
-        -fx-background-color: #2D2D2D;
-        -fx-background-radius: 15px;
+        -fx-text-fill: #9b968c;
         -fx-line-spacing: 3px;
       """
-      prefWidth = 450
-      maxWidth = 450
+      prefWidth = 440
+      maxWidth = 440
     }
-    
-    val imgView = new ImageView { 
-      fitWidth = 400
+
+    val imgView = new ImageView {
+      fitWidth = 480
       fitHeight = 250
       preserveRatio = true
       smooth = true
     }
-    
-    val optsBox = new VBox { 
+
+    val optsBox = new VBox {
       spacing = 12
       padding = Insets(20)
-      style = "-fx-background-color: #2D2D2D; -fx-background-radius: 15px;"
+      alignment = Pos.Center
       prefWidth = 450
       minHeight = 100
     }
-    
+
     val ctrl = new StoryController(storyLbl, imgView, optsBox)
-    
+
     stage = new PrimaryStage {
-      title = "La Aventura de Juan"
+      title = "El Misterio de Hogwarts"
       width = 520
       height = 750
       resizable = false
-      scene = new MainView("La Aventura de Juan", storyLbl, imgView, optsBox).scene
+      scene = new MainView(
+        "El Misterio de Hogwarts",
+        storyLbl,
+        imgView,
+        optsBox
+      ).scene
     }
-    
+
     ctrl.update()
   }
 }

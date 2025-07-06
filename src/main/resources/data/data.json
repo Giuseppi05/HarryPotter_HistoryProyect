@@ -2,47 +2,47 @@
   "nodes": [
     {
       "id": 1,
-      "event": "🌲 Juan está perdido en un misterioso bosque encantado...",
+      "event": "Juan está perdido en un misterioso bosque encantado...",
       "imagePath": "/images/node_1.jpg"
     },
     {
       "id": 2,
-      "event": "🛤️ Juan encuentra un sendero que se bifurca en dos direcciones",
+      "event": "Juan encuentra un sendero que se bifurca en dos direcciones",
       "imagePath": "/images/node_2.jpg"
     },
     {
       "id": 3,
-      "event": "✨ Juan encuentra un hada brillante con alas de mariposa",
+      "event": "Juan encuentra un hada brillante con alas de mariposa",
       "imagePath": "/images/node_3.jpg"
     },
     {
       "id": 4,
-      "event": "🧚‍♀️ El hada sonríe y lo guía hacia lo más profundo del bosque mágico",
+      "event": "El hada sonríe y lo guía hacia lo más profundo del bosque mágico",
       "imagePath": "/images/node_4.jpg"
     },
     {
       "id": 5,
-      "event": "👻 Juan desaparece en la niebla... nadie lo vuelve a ver jamás",
+      "event": "Juan desaparece en la niebla... nadie lo vuelve a ver jamás",
       "imagePath": "/images/node_5.jpg"
     },
     {
       "id": 6,
-      "event": "🚶‍♂️ Juan decide ignorar al hada y encuentra la salida del bosque",
+      "event": "Juan decide ignorar al hada y encuentra la salida del bosque",
       "imagePath": "/images/node_6.jpg"
     },
     {
       "id": 7,
-      "event": "🏠 Juan regresa a casa sano y salvo, viviendo feliz para siempre",
+      "event": "Juan regresa a casa sano y salvo, viviendo feliz para siempre",
       "imagePath": "/images/node_7.jpg"
     },
     {
       "id": 8,
-      "event": "🐻 ¡Un oso feroz emerge de entre los arbustos y ataca a Juan!",
+      "event": "¡Un oso feroz emerge de entre los arbustos y ataca a Juan!",
       "imagePath": "/images/node_8.jpg"
     },
     {
       "id": 9,
-      "event": "💀 Juan no logra escapar... su aventura termina aquí",
+      "event": "Juan no logra escapar... su aventura termina aquí",
       "imagePath": "/images/node_9.jpg"
     }
   ],

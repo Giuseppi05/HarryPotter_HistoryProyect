@@ -25,7 +25,7 @@ class StoryController(story: Label, image: ImageView, opts: VBox) {
             -fx-font-family: 'Segoe UI', sans-serif;
             -fx-font-size: 16pt;
             -fx-font-weight: 500;
-            -fx-text-fill: #81C784;
+            -fx-text-fill:rgb(248, 103, 71);
             -fx-padding: 10 0 10 0;
           """
           alignment = Pos.Center
@@ -33,15 +33,15 @@ class StoryController(story: Label, image: ImageView, opts: VBox) {
         }
         opts.children.addAll(
           completedLabel,
-          StyledButton("Nueva Aventura", "#4CAF50") { current = Graph.findNode(1).get; update() }
+          StyledButton("Nueva Aventura", "#f24822") { current = Graph.findNode(1).get; update() }
         )
       case 1 =>
         opts.children.add(
-          StyledButton("Continuar", "#2196F3") { current = Graph.findNode(e.head.finalNode).get; update() }
+          StyledButton("Continuar", "#f24822") { current = Graph.findNode(e.head.finalNode).get; update() }
         )
       case _ => e.foreach { edge =>
         opts.children.add(
-          StyledButton(edge.option, "#673AB7") { current = Graph.findNode(edge.finalNode).get; update() }
+          StyledButton(edge.option, "#f24822") { current = Graph.findNode(edge.finalNode).get; update() }
         )
       }
     }
